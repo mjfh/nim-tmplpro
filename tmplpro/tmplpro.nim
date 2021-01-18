@@ -128,7 +128,7 @@
 
 runnableExamples:
   import
-    algorithm, os, sequtils, tmplpro
+    algorithm, os, sequtils
 
   iterator envItems(p: TmplParser): TmplParser {.closure.} =
     for k in envPairs.toSeq.mapIt(it.key.string).sorted:
