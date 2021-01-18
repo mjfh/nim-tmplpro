@@ -20,13 +20,13 @@ README.html: README.md
 
 # ----
 
-DOCS = docs/tmplpro/tmplpro.html
+DOCS = docs/src/tmplpro.html
 
 update: $(DOCS)
 
 PWD = `pwd`
 
-$(DOCS) : tmplpro/tmplpro.nim
+$(DOCS) : src/tmplpro.nim
 	nim doc --outdir:docs --docRoot:$(PWD) $<
 
 # ----

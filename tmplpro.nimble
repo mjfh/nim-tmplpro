@@ -1,12 +1,13 @@
 # Package
 
 description = "Text template processor, handy not only for CGI"
-version = "0.1.1"
+version = "0.1.2"
 
 author = "Jordan Hrycaj"
 license = "UNLICENCE"
 
 requires "nim >= 1.4.2"
+srcDir= "src"
 
 # Tasks
 

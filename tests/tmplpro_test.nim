@@ -6,7 +6,7 @@
 #
 
 import
-  algorithm, os, sequtils, strformat, strutils, tables, tmplpro/tmplpro
+  algorithm, os, sequtils, strformat, strutils, tables, tmplpro
 
 const
   noisy {.intdefine.}: int = 0

@@ -62,7 +62,7 @@ The corresponding *NIM* source code to configure the template text processor
 that produces this outcome looks like
 
        import
-         algorithm, os, sequtils, tmplpro/tmplpro
+         algorithm, os, sequtils, tmplpro
 
        iterator envItems(p: TmplParser): TmplParser {.closure.} =
          for k in envPairs.toSeq.mapIt(it.key.string).sorted:
