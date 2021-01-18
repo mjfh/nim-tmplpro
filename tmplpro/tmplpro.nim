@@ -138,7 +138,7 @@ runnableExamples:
         value = ("@VALUE@", k.getEnv.string)
       yield (p.filter, @[key, value].concat(p.vars))
 
-  # Template processor parser specification
+  # Text template processor parser specification
   proc newSpecs(): TmplParser =
     result = (newTmplFilter(), newSeq[(string,string)]())
 
